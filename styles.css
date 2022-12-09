@@ -1,0 +1,185 @@
+body{
+    background-color: rgb(255,255,255);
+}
+.nav-text{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+/*  */
+.carousel-style{
+    width: 100%;
+    height: 60vh;
+}
+.carousel-img{
+    width: auto;
+    height: 60vh;
+}
+/*  */
+/* header-area-start */
+.icon-area{
+   
+}
+.first-icon-area{
+    background-color: rgb(30,170,241);
+}
+.second-icon-area{
+    background-color: rgb(140,193,82);
+}
+.third-icon-area{
+    background-color: rgb(93,80,198);
+}
+.four-icon-area{
+    background-color: rgb(241,69,61);
+}
+
+.offer-area-icon{
+    width: 130px;
+    height: 115px;
+    background-color: white;
+    position: relative;
+    clip-path: circle();
+    bottom: 60px;
+    padding: 20px;
+} 
+.icon-text-area{
+    padding-bottom: 60px;
+    margin-top: -40px;
+}
+
+.icon-title{
+    
+ color: azure;
+}
+.icon-text{
+color: beige;
+line-height: 1.8em;
+}
+/* header-area-end */
+.service-icon{
+    width: 100px;
+    height: 90px;
+ clip-path: circle();
+ background-color: rgb(30,170,241);
+}
+.service-icon-div{
+ width: 20%;
+}
+.short-text{
+    color: rgb(152,152,152);
+    word-spacing: 5px;
+    line-height: 1.8em;
+}
+.sem-button{
+    color: whitesmoke;
+    background-color: rgb(253,166,56);
+
+}
+.sem-button:hover{
+    color: whitesmoke;
+    background-color:darkorange;
+}
+.short-title{
+    color: rgb(80,80,80);
+}
+.hello{
+    width: 70%;
+}
+
+/* ============================================ */
+   .teachers-profile-card{
+    position: relative;
+    overflow: hidden;
+   }
+   .teachers-profile-card:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 6vh;
+    background-color: white;
+    bottom: -60%;
+    z-index: 1;
+    transition: .5s;
+   }
+   .teachers-profile-card:hover:before{
+    bottom: 0%;
+   }
+   .teachers-profile-card img{
+    width: 100%;
+    height: auto;
+   }
+   .teachers-profile-card-text{
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    bottom: -30%;
+    color: white;
+    z-index: 2;
+    transition: 1.1s;
+   }
+   .teachers-profile-card-text a{
+    text-decoration: none;
+    font-size: 18px;
+    color: orange;
+   }
+   .teachers-profile-card:hover .teachers-profile-card-text{
+    bottom: 0px;
+   }
+   .teachers-profile-title{
+    margin-top: 20px;
+   }
+   .teachers-name{
+
+   }
+   .teachers-profile-skil{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(173, 178, 184);
+   }
+   .teachers-profile-about{
+   font-size: 18px;
+    color: rgb(111, 118, 126);
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 3px;
+   }
+
+   /* teacher-profile-area-start */
+   .teacher-profile-area{
+    width: 60%;
+    height: 20vh;
+   }
+   .profile-div{
+    width: 40%;
+    height: 30vh;
+   }
+   .profile-img-area{
+    
+   }
+   /* teacher-profile-area-start */
+   /* ========Our Pricing========== */
+   .Pricing-img{
+    width: 100%;
+    height: 20vh;
+   }
+   /* from-section-area-start */
+   #form-bg-img{
+    background-image: url(img/bg-teacher11.png);
+    
+    background-repeat: repeat;
+  /* background-position: top; */
+ 
+  /* background-attachment:fixed; */
+   }
+   .form-input{
+    outline: none;
+   }
+   /* footer-st */
+   .footer-title{
+    
+   }
+   #address-area{
+    font-size: 5px;
+    color: aqua;
+   }
+   /* footer-end */
