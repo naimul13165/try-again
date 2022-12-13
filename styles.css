@@ -1,3 +1,21 @@
+/* common style */
+.first-head-title{
+color: rgb(93,80,198);
+}
+.second-head-title{
+    color: rgb(253,166,56);
+    font-size: 42px;
+    font-weight: 600;
+    font-family:sans-serif;
+}
+.short-ditals{
+    font-size: 16px;
+color: rgb(127,127,127);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* common style close */
+
+
 body{
     background-color: rgb(255,255,255);
 }
@@ -53,8 +71,10 @@ body{
  color: azure;
 }
 .icon-text{
-color: beige;
+font-size: 16px;
+color: rgb(224, 224, 203);
 line-height: 1.8em;
+margin-top: 10px;
 }
 /* header-area-end */
 .service-icon{
@@ -182,8 +202,98 @@ line-height: 1.8em;
     font-size: 5px;
     color: aqua;
    }
+   .footer-icon{
+    font-size: 10px;
+    
+   }
    /* footer-end */
                     /* Our Courses start  */
 .courses-div{
     background-color: rgb(250,250,250);
 }
+.courses-title{
+    color: rgb(100,170,241);
+    padding-top: 30px
+}
+.color-title{
+    color: rgb(253,166,56);
+}
+.details-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    color: rgb(124,124,124);
+    line-height: 1.8em;
+    margin-top: 20px;
+    padding: 0 10px 30px 0;
+}
+
+/* our-priching-start */
+.priching-div{
+    background-color: rgb(250,250,250);
+    text-align: center;
+}
+.priching-title{
+    font-size: 25px;
+    font-weight: 500; 
+    font-family: serif;
+    margin: 25px 0 18px 0;
+}
+
+.priching-dollar{
+    color: rgb(30,170,241);
+    font-size: 27px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.mini-number{
+    font-size: 12px;
+    color: rgb(127,127,127);
+    font-weight: 300;
+}
+.short-ditals-difarent{
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.9em;
+    margin-top: 8px;
+    
+}
+.course-btn-1{
+    background-color: rgb(30,170,241);
+}
+.course-btn-2{
+    background-color: rgb(253,166,56);
+}
+.course-btn-3{
+    background-color: rgb(140,193,82);
+}
+.course-btn-4{
+    background-color: rgb(241,69,61);
+}
+.course-btn{
+    color: white;
+    padding: 15px 30px;
+   border-radius: 30px;
+   margin-bottom: 30px;
+}
+/* our-priching-end */
+/* recent-blog-start*/
+.blog-section{
+    background-color: rgb(255,255,255);
+    margin-bottom: 130px;
+}
+.blog-btn{
+    color: white;
+    background-color: rgb(253,166,56);
+    border-radius: 35px;
+}
+.blog-short-text{
+    font-size: 16px;
+    line-height: 1.9em;
+}
+.blog-div{
+    background-color: rgb(250,250,250);
+}
+.blog-addmin{
+    color: rgb(30,170,241);
+}
+/* recent-blog-end*/
