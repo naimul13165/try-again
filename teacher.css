@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-img{
+    background: rgb(255, 207, 207)url(img/teacher/bg_2.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+.teacher-parent-div{
+    min-height: 50vh;
+}
+
+.teacher-home-title{
+    font-size: 36px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.teacher-btn{
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
