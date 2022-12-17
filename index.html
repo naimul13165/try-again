@@ -8,90 +8,94 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
 />
+<!-- bootstrap-offline -->
+<link rel="stylesheet" href="">
+<!-- bootstrap-offline -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/ebcde2ca95.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header class="navbar navbar-expand-lg d-block bg-black">
-      <div class="container pt-4 pb-4">
-      <a class="navbar-brand text-white" href="#">Kiddos</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-       
+   <!-- brand-information-st -->
+   <div class="compani-info d-flex align-items-center">
+    <div class=" container d-flex justify-content-around align-content-center">
+    <a class="compani-text" href="">198 West 21th Street, Suite 721 New York NY 10016</a>
+    <a class="compani-text" href="">youremail@email.com</a>
+    <a class="compani-text" href="">+ 1235 2355 98</a>
+    </div>
+  </div>
+   <!-- brand-information-end -->
+    <header class="navbar navbar-expand-lg d-block fixed-top" style="background-color: rgb(255,255,255);">
+      <div class="container pt-3 pb-3">
+      <a class="navbar-brand text-black" style="font-weight: 800; font-size: 23.3px;" href="#">Kiddos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false"       
+      aria-       
        controls="collapseExample">
-          <span class="navbar-toggler-icon bg-light"></span>
+          <span class="navbar-toggler-icon"></span>
       </button>
           <nav class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                <li class="nav-item">
-                  <a class="nav-link active me-md-4 text-white nav-text" href="#">Home</a>
+                <li class="nav-item"> 
+                  <a class="nav-link active me-md-4 nav-text" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active me-md-4 text-white nav-text" href="#">About</a>
+                  <a class="nav-link active me-md-4 nav-text" href="http://127.0.0.1:5501/about.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active me-md-4 text-white nav-text" href="#">Teacher</a>
+                  <a class="nav-link active me-md-4 nav-text" href="http://127.0.0.1:5501/techer.html">Teacher</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active me-md-4 text-white nav-text" href="#">Courses</a>
+                  <a class="nav-link active me-md-4 nav-text" href="http://127.0.0.1:5501/Courses.html">Courses</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active me-md-4 text-white nav-text" href="#">Pricing</a>
+                  <a class="nav-link active me-md-4 nav-text" href="http://127.0.0.1:5501/pricing.html">Pricing</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active me-md-4 text-white nav-text" href="#">Blog</a>
+                  <a class="nav-link active me-md-4 nav-text" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active me-md-4 text-white nav-text" href="#">Contact</a>
+                  <a class="nav-link active me-md-4 nav-text" href="#">Contact</a>
                 </li>
               </ul>
             </nav>
       </div>
+    </header>
       <!-------------carouse-start------------->
 
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" id="home">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item carousel-style active ">
-          <img src="img/carousel-img1.jpg" class="d-block w-100 carousel-img" alt="...">
-          <div class="carousel-caption">
-            <h5>Some representative placeholder content for the first slide.</h5>
-            <button class="btn btn-primary" style="margin-bottom: 100px;">Read More</button>
+      <section>
+        <div class="swiper mySwiper">
+          <d iv class="swiper-wrapper">
+            <!--  -->
+            <div class="swiper-slide top-caruosal-slide" id="top-caruosal-1">
+                <div class="top-caaruosel-text-area">
+                  <div class="text-center">
+                    <h1 class="top-carousel-text fs-lg-1">Perfect Learned <br> For Your Child</h1>
+                    <button class="btn top-carousel-btn mt-4">Read More</button>
+                  </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="swiper-slide top-caruosal-slide" id="top-caruosal-2">
+               <div class="top-caaruosel-text-area ">
+                <div class="text-center">
+                  <h1 class="top-carousel-text">Kids Are The Best <br> Explorers In The World</h1>
+                  <button class="btn top-carousel-btn mt-4">Read More </button>
+                </div>
+               </div>
+            </div>
+            <!--  -->
           </div>
-        </div>
-        <div class="carousel-item carousel-style">
-          <img src="img/carousel-img1.jpg" class="d-block w-100 carousel-img" alt="...">
-          <div class="carousel-caption">
-            <h1  class="">kids are the best explorers in the world</h1>
-            
-          </div>
-        </div>
-        <div class="carousel-item carousel-style">
-          <img src="img/carousel-img1.jpg" class="d-block w-100 carousel-img" alt="...">
-          <div class="carousel-caption">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+        <div class="swiper-button-hidden"></div>
+      <div class="swiper-pagination"></div>
+     </div>
+    </section>
+    
  
 <!-------------carousel-close----------------->
-    </header>
+ 
     <!-- header-close -->
     <!-- Certified Teachers-start -->
-    <section class="container-fluid" style="margin-top: -8px;">
+    <section class="container-fluid">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12 text-center first-icon-area">  
           <img src="img/logo/Teachers.png"class="card-img-top offer-area-icon" alt="...">  
@@ -125,7 +129,7 @@
     </section>
     <!-- Certified Teachers-end -->
      <!-- offer area-start  -->
-    <section class="container-md mt-5">
+    <section class="container-md mt-5" style="">
       <main class="row">
         <section class="col-lg-8">
           <div class="row text-black gy-4">
@@ -192,11 +196,13 @@
         </section>
            
               <!--  -->
-          <div class="col-lg-4">  
+          <div class="col-lg-4" style="color: rgb(250,250,250);">  
             <h2 class="short-title">Welcome to Kiddos Learning School</h2>
-            <p class="short-text mt-4">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.
+            <p class="short-text mt-4">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been 
+               rewritten a thousand times and everything that was left from its origin would be the word.
     
-              Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
+              Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by 
+               their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
               <button class="btn rounded-5 fw-semibold fs-6 px-4 py-3 sem-button">Read More</button>
         </div>
       </main>
@@ -354,6 +360,33 @@
       </main>
     </section>                                         
    <!-- Our Courses close -->
+   <!-- Experience-st -->
+   <section class="" style="margin-top: 135px;">
+    <div class="experience-bg-img">
+      <div class="container">
+        <div class="text-center">
+          <div class="row">
+            <h1 class="" style="color: rgb(93,80,198); font-family: Gill Sans, sans-serif; font-weight: 700; margin-top: 115px;">20 Years of <span style="color: 
+             rgb(0,0,0)">Experience</span></h1>
+            <div class="col-sm-0 col-md-0 col-lg-2"></div>
+            <div class="col-lg-7 col-md-12">
+              <p class="Experience-short-text ">
+                Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country
+              </p>
+            </div>
+            <div class="col-sm-0 col-md-0 col-lg-2"></div>
+          </div>
+            <div class="row px-lg-5 px-md-0" style="padding-bottom: 160px;">
+            <h1 class="col-md-3 col-12 experience-number ">18 <span class="d-block experience-span-text mt-4">Certified Teachers</span></h1>
+            <h1 class="col-md-3 col-12 experience-number ">351 <span class="d-block experience-span-text mt-4">Successful Kids</span></h1>
+            <h1 class="col-md-3 col-12 experience-number ">564 <span class="d-block experience-span-text mt-4">Happy Parents</span></h1>
+            <h1 class="col-md-3 col-12 experience-number ">300 <span class="d-block experience-span-text mt-4">Awards Won</span></h1>
+            </div>
+        </div>
+        </div>
+    </div>
+   </section>
+   <!-- Experience-end -->
 <section class="container">
   <div class="row text-center d-flex justify-content-center" style="margin-top: 130px; margin-bottom: 75px;">
       <div class="col-md-7">
